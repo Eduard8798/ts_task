@@ -16,7 +16,7 @@ const App = () => {
                 <Route path="/todos" element={<TodoPage />} />
                 <Route path="/users/:id" element={<UserItemPage />} />
                 <Route path="/todos/:id" element={<TodosItemPage />} />
-//add add
+//add
             </Routes>
         </BrowserRouter>
     );
